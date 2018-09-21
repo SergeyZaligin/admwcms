@@ -1,0 +1,128 @@
+[2018-09-19 11:46:13] | Текст ошибки:  | Файл E:\OSPanel\domains\wcms.loc\public\index.php | Строка 9
+ ================= 
+ [2018-09-19 11:46:13] | Текст ошибки:  | Файл E:\OSPanel\domains\wcms.loc\public\index.php | Строка 9
+ ================= 
+ [2018-09-19 11:46:46] | Текст ошибки: 404 | Файл E:\OSPanel\domains\wcms.loc\public\index.php | Строка 9
+ ================= 
+ [2018-09-19 11:46:47] | Текст ошибки: 404 | Файл E:\OSPanel\domains\wcms.loc\public\index.php | Строка 9
+ ================= 
+ [2018-09-19 11:47:00] | Текст ошибки: 404 | Файл E:\OSPanel\domains\wcms.loc\public\index.php | Строка 9
+ ================= 
+ [2018-09-19 11:47:01] | Текст ошибки: 404 | Файл E:\OSPanel\domains\wcms.loc\public\index.php | Строка 9
+ ================= 
+ [2018-09-19 11:47:08] | Текст ошибки: 404 | Файл E:\OSPanel\domains\wcms.loc\public\index.php | Строка 9
+ ================= 
+ [2018-09-19 11:47:08] | Текст ошибки: 404 | Файл E:\OSPanel\domains\wcms.loc\public\index.php | Строка 9
+ ================= 
+ [2018-09-19 11:58:50] | Текст ошибки: 404 | Файл E:\OSPanel\domains\wcms.loc\public\index.php | Строка 9
+ ================= 
+ [2018-09-19 11:58:50] | Текст ошибки: 404 | Файл E:\OSPanel\domains\wcms.loc\public\index.php | Строка 9
+ ================= 
+ [2018-09-19 11:59:47] | Текст ошибки: 404 | Файл E:\OSPanel\domains\wcms.loc\public\index.php | Строка 9
+ ================= 
+ [2018-09-19 11:59:47] | Текст ошибки: 404 | Файл E:\OSPanel\domains\wcms.loc\public\index.php | Строка 9
+ ================= 
+ [2018-09-19 12:00:02] | Текст ошибки: 404 | Файл E:\OSPanel\domains\wcms.loc\public\index.php | Строка 9
+ ================= 
+ [2018-09-19 12:00:02] | Текст ошибки: 404 | Файл E:\OSPanel\domains\wcms.loc\public\index.php | Строка 9
+ ================= 
+ [2018-09-19 14:18:27] | Текст ошибки: Class 'wcms\Exception' not found | Файл E:\OSPanel\domains\wcms.loc\vendor\wcms\core\Router.php | Строка 47
+ ================= 
+ [2018-09-19 14:18:51] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\wcms.loc\vendor\wcms\core\Router.php | Строка 47
+ ================= 
+ [2018-09-20 08:26:29] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\wcms.loc\vendor\wcms\core\Router.php | Строка 48
+ ================= 
+ 
+[2018-09-20 08:54:38] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\wcms.loc\vendor\wcms\core\Router.php | Строка 59
+ ================= 
+ [2018-09-20 10:25:18] | Текст ошибки: Call to undefined method app\controllers\MainController::getMeta() | Файл E:\OSPanel\domains\wcms.loc\vendor\wcms\core\Router.php | Строка 53
+ ================= 
+ [2018-09-20 10:25:18] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\wcms.loc\vendor\wcms\core\Router.php | Строка 61
+ ================= 
+ [2018-09-20 12:48:03] | Текст ошибки: Контроллер app\controllers\DfdfController не найден | Файл E:\OSPanel\domains\wcms.loc\vendor\wcms\core\Router.php | Строка 60
+ ================= 
+ [2018-09-20 12:48:03] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\wcms.loc\vendor\wcms\core\Router.php | Строка 63
+ ================= 
+ [2018-09-20 12:50:13] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\wcms.loc\vendor\wcms\core\Router.php | Строка 63
+ ================= 
+ [2018-09-20 12:50:27] | Текст ошибки: Контроллер app\controllers\PageController не найден | Файл E:\OSPanel\domains\wcms.loc\vendor\wcms\core\Router.php | Строка 60
+ ================= 
+ [2018-09-20 12:50:36] | Текст ошибки: Контроллер app\controllers\PageController не найден | Файл E:\OSPanel\domains\wcms.loc\vendor\wcms\core\Router.php | Строка 60
+ ================= 
+ [2018-09-20 12:51:53] | Текст ошибки: Call to undefined method app\controllers\PageController::getView() | Файл E:\OSPanel\domains\wcms.loc\vendor\wcms\core\Router.php | Строка 55
+ ================= 
+ [2018-09-20 12:52:16] | Текст ошибки: Class 'wcms\base\Exception' not found | Файл E:\OSPanel\domains\wcms.loc\vendor\wcms\core\base\View.php | Строка 90
+ ================= 
+ [2018-09-20 12:54:06] | Текст ошибки: Class 'wcms\base\Exception' not found | Файл E:\OSPanel\domains\wcms.loc\vendor\wcms\core\base\View.php | Строка 90
+ ================= 
+ [2018-09-20 12:54:30] | Текст ошибки: Не найден вид E:\OSPanel\domains\wcms.loc/app/views/Page/view.php | Файл E:\OSPanel\domains\wcms.loc\vendor\wcms\core\base\View.php | Строка 90
+ ================= 
+ [2018-09-20 12:57:09] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\wcms.loc\vendor\wcms\core\Router.php | Строка 63
+ ================= 
+ [2018-09-20 12:59:24] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\wcms.loc\vendor\wcms\core\Router.php | Строка 63
+ ================= 
+ [2018-09-20 16:38:42] | Текст ошибки: Метод app\controllers\MainController::viewAction не найден | Файл /opt/lampp/htdocs/wcms.loc/vendor/wcms/core/Router.php | Строка 57
+ ================= 
+ [2018-09-20 16:39:37] | Текст ошибки: Метод app\controllers\MainController::viewAction не найден | Файл /opt/lampp/htdocs/wcms.loc/vendor/wcms/core/Router.php | Строка 57
+ ================= 
+ [2018-09-20 16:40:45] | Текст ошибки: Метод app\controllers\MainController::viewAction не найден | Файл /opt/lampp/htdocs/wcms.loc/vendor/wcms/core/Router.php | Строка 57
+ ================= 
+ [2018-09-20 16:41:26] | Текст ошибки: Метод app\controllers\MainController::viewAction не найден | Файл /opt/lampp/htdocs/wcms.loc/vendor/wcms/core/Router.php | Строка 57
+ ================= 
+ [2018-09-20 17:18:24] | Текст ошибки: Class 'wcms\Exception' not found | Файл /opt/lampp/htdocs/wcms.loc/vendor/wcms/core/Db.php | Строка 21
+ ================= 
+ [2018-09-20 17:18:56] | Текст ошибки: Не удалось подключиться к базе данных | Файл /opt/lampp/htdocs/wcms.loc/vendor/wcms/core/Db.php | Строка 21
+ ================= 
+ [2018-09-20 17:18:56] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/wcms.loc/vendor/wcms/core/Router.php | Строка 63
+ ================= 
+ [2018-09-20 17:18:59] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/wcms.loc/vendor/wcms/core/Router.php | Строка 63
+ ================= 
+ [2018-09-20 17:22:23] | Текст ошибки: Class 'R' not found | Файл /opt/lampp/htdocs/wcms.loc/app/controllers/MainController.php | Строка 15
+ ================= 
+ [2018-09-20 17:23:08] | Текст ошибки: Class 'app\controllers\R' not found | Файл /opt/lampp/htdocs/wcms.loc/app/controllers/MainController.php | Строка 14
+ ================= 
+ [2018-09-20 17:23:41] | Текст ошибки: Class 'R' not found | Файл /opt/lampp/htdocs/wcms.loc/app/controllers/MainController.php | Строка 16
+ ================= 
+ [2018-09-20 17:23:56] | Текст ошибки: Class 'R' not found | Файл /opt/lampp/htdocs/wcms.loc/app/controllers/MainController.php | Строка 16
+ ================= 
+ [2018-09-20 17:24:22] | Текст ошибки: Class 'R' not found | Файл /opt/lampp/htdocs/wcms.loc/app/controllers/MainController.php | Строка 16
+ ================= 
+ [2018-09-20 17:34:26] | Текст ошибки: Class 'R' not found | Файл /opt/lampp/htdocs/wcms.loc/app/views/layouts/default.php | Строка 13
+ ================= 
+ [2018-09-21 08:57:02] | Текст ошибки: Контроллер app\controllers\admin\MainController не найден | Файл E:\OSPanel\domains\admwcms.loc\vendor\wcms\core\Router.php | Строка 60
+ ================= 
+ [2018-09-21 08:57:13] | Текст ошибки: Контроллер app\controllers\admin\MainController не найден | Файл E:\OSPanel\domains\admwcms.loc\vendor\wcms\core\Router.php | Строка 60
+ ================= 
+ [2018-09-21 08:57:14] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\admwcms.loc\vendor\wcms\core\Router.php | Строка 63
+ ================= 
+ [2018-09-21 08:57:39] | Текст ошибки: Контроллер app\controllers\admin\TestController не найден | Файл E:\OSPanel\domains\admwcms.loc\vendor\wcms\core\Router.php | Строка 60
+ ================= 
+ [2018-09-21 08:57:49] | Текст ошибки: Контроллер app\controllers\admin\TestController не найден | Файл E:\OSPanel\domains\admwcms.loc\vendor\wcms\core\Router.php | Строка 60
+ ================= 
+ [2018-09-21 09:15:26] | Текст ошибки: Не найден вид E:\OSPanel\domains\admwcms.loc/app/views/admin\Test/index.php | Файл E:\OSPanel\domains\admwcms.loc\vendor\wcms\core\base\View.php | Строка 90
+ ================= 
+ [2018-09-21 09:17:17] | Текст ошибки: Не найден вид E:\OSPanel\domains\admwcms.loc/app/views/admin\Test/test.php | Файл E:\OSPanel\domains\admwcms.loc\vendor\wcms\core\base\View.php | Строка 90
+ ================= 
+ [2018-09-21 09:17:41] | Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'admwcms.test' doesn't exist | Файл E:\OSPanel\domains\admwcms.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка 188
+ ================= 
+ [2018-09-21 09:19:33] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\admwcms.loc\vendor\wcms\core\Router.php | Строка 63
+ ================= 
+ [2018-09-21 09:19:38] | Текст ошибки: Не найден вид E:\OSPanel\domains\admwcms.loc/app/views/admin\Test/index.php | Файл E:\OSPanel\domains\admwcms.loc\vendor\wcms\core\base\View.php | Строка 90
+ ================= 
+ [2018-09-21 09:21:16] | Текст ошибки: Не найден вид E:\OSPanel\domains\admwcms.loc/app/views/admin\Test/index.php | Файл E:\OSPanel\domains\admwcms.loc\vendor\wcms\core\base\View.php | Строка 90
+ ================= 
+ [2018-09-21 09:22:30] | Текст ошибки: Не найден вид E:\OSPanel\domains\admwcms.loc/app/views/admin\Test/index.php | Файл E:\OSPanel\domains\admwcms.loc\vendor\wcms\core\base\View.php | Строка 90
+ ================= 
+ [2018-09-21 09:23:27] | Текст ошибки: Call to a member function getDatabase() on null | Файл E:\OSPanel\domains\admwcms.loc\app\views\layouts\admin.php | Строка 15
+ ================= 
+ [2018-09-21 09:32:02] | Текст ошибки: Контроллер app\controllers\admin\UsController не найден | Файл E:\OSPanel\domains\admwcms.loc\vendor\wcms\core\Router.php | Строка 60
+ ================= 
+ [2018-09-21 09:37:16] | Текст ошибки: Не найден вид E:\OSPanel\domains\admwcms.loc/app/views//.php | Файл E:\OSPanel\domains\admwcms.loc\vendor\wcms\core\base\View.php | Строка 90
+ ================= 
+ [2018-09-21 11:00:21] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\admwcms.loc\vendor\wcms\core\Router.php | Строка 63
+ ================= 
+ [2018-09-21 11:07:45] | Текст ошибки: Rule 'lenghtMin' has not been registered with Valitron\Validator::addRule(). | Файл E:\OSPanel\domains\admwcms.loc\vendor\vlucas\valitron\src\Valitron\Validator.php | Строка 1173
+ ================= 
+ [2018-09-21 11:16:54] | Текст ошибки: Rule 'password' has not been registered with Valitron\Validator::addRule(). | Файл E:\OSPanel\domains\admwcms.loc\vendor\vlucas\valitron\src\Valitron\Validator.php | Строка 1173
+ ================= 
+ 
