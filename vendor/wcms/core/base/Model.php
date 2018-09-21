@@ -30,6 +30,7 @@ abstract class Model
         $v = new Validator($data);
         $v->rules($this->rules);
         if ($v->validate()) {
+            $_SESSION['validate_success'] = 'Вы успешно зарегистроированы!';
             return true;
         } else {
            $this->errors = $v->errors();
@@ -39,7 +40,16 @@ abstract class Model
     
     public function getErrors() 
     {
-        debug($this->errors);
+        $errors = '<ul>';
+        foreach ($this->errors as $error) {
+            foreach ($error as $item) {
+                $errors .= '<li>';
+                $errors .= $item;
+                $errors .= '</li>';
+            }
+        }
+        $errors .= '</ul>';
+        $_SESSION['validate_errors'] = $errors;
     }
     
     public function __construct() 

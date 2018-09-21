@@ -7,6 +7,14 @@
   <?=$this->getMeta(); ?>
 </head>
 <body>
+    <style>
+        .errors-validate {
+            color: red;
+        }
+        .success-validate{
+            color: green;
+        }
+    </style>
     <nav>
         <ul>
             <li>
@@ -22,6 +30,15 @@
     </nav>
     <h3>Default</h3>
     <?=$content; ?>
+    
+    <?php if (isset($_SESSION['validate_errors'])): ?>
+    <div class="errors-validate">
+        <?=$_SESSION['errors']; unset($_SESSION['errors']); ?>
+    </div>
+    <?php  elseif (isset($_SESSION['validate_success'])) : ?>
+    <div class="success-validate"><?=$_SESSION['validate_success']; unset($_SESSION['validate_success']); ?></div>
+    <?php endif; ?>
+    
     <?php
         use \RedBeanPHP\R as R;
         $logs = R::getDatabaseAdapter()

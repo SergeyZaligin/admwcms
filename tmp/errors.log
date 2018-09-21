@@ -125,4 +125,22 @@
  ================= 
  [2018-09-21 11:16:54] | Текст ошибки: Rule 'password' has not been registered with Valitron\Validator::addRule(). | Файл E:\OSPanel\domains\admwcms.loc\vendor\vlucas\valitron\src\Valitron\Validator.php | Строка 1173
  ================= 
+ [2018-09-21 11:40:26] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\admwcms.loc\vendor\wcms\core\Router.php | Строка 63
+ ================= 
+ [2018-09-21 11:40:26] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\admwcms.loc\vendor\wcms\core\Router.php | Строка 63
+ ================= 
+ [2018-09-21 11:40:26] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\admwcms.loc\vendor\wcms\core\Router.php | Строка 63
+ ================= 
+ [2018-09-21 11:40:27] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\admwcms.loc\vendor\wcms\core\Router.php | Строка 63
+ ================= 
+ [2018-09-21 11:40:27] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\admwcms.loc\vendor\wcms\core\Router.php | Строка 63
+ ================= 
+ [2018-09-21 11:40:27] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\admwcms.loc\vendor\wcms\core\Router.php | Строка 63
+ ================= 
+ [2018-09-21 11:40:28] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\admwcms.loc\vendor\wcms\core\Router.php | Строка 63
+ ================= 
+ [2018-09-21 11:41:19] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\admwcms.loc\vendor\wcms\core\Router.php | Строка 63
+ ================= 
+ [2018-09-21 11:45:07] | Текст ошибки: Страница не найдена | Файл E:\OSPanel\domains\admwcms.loc\vendor\wcms\core\Router.php | Строка 63
+ ================= 
  
