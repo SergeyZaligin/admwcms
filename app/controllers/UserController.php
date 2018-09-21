@@ -21,6 +21,7 @@ class UserController extends AppController
             $userModel->load($data);
             if (!$userModel->validate($data)) {
                 $userModel->getErrors();
+                redirect();
             }
         }
     }

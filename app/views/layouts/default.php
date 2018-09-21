@@ -33,7 +33,7 @@
     
     <?php if (isset($_SESSION['validate_errors'])): ?>
     <div class="errors-validate">
-        <?=$_SESSION['errors']; unset($_SESSION['errors']); ?>
+        <?=$_SESSION['validate_errors']; unset($_SESSION['validate_errors']); ?>
     </div>
     <?php  elseif (isset($_SESSION['validate_success'])) : ?>
     <div class="success-validate"><?=$_SESSION['validate_success']; unset($_SESSION['validate_success']); ?></div>
