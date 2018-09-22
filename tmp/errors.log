@@ -153,4 +153,20 @@
  ================= 
  [2018-09-22 10:41:29] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/admwcms.loc/vendor/wcms/core/Router.php | Строка 63
  ================= 
+ [2018-09-22 11:52:28] | Текст ошибки: Не найден вид /opt/lampp/htdocs/admwcms.loc/app/views/User/logout.php | Файл /opt/lampp/htdocs/admwcms.loc/vendor/wcms/core/base/View.php | Строка 90
+ ================= 
+ [2018-09-22 11:52:28] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/admwcms.loc/vendor/wcms/core/Router.php | Строка 63
+ ================= 
+ [2018-09-22 11:52:44] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/admwcms.loc/vendor/wcms/core/Router.php | Строка 63
+ ================= 
+ [2018-09-22 11:57:56] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/admwcms.loc/vendor/wcms/core/Router.php | Строка 63
+ ================= 
+ [2018-09-22 11:58:42] | Текст ошибки: Не найден вид /opt/lampp/htdocs/admwcms.loc/app/views/User/logout.php | Файл /opt/lampp/htdocs/admwcms.loc/vendor/wcms/core/base/View.php | Строка 90
+ ================= 
+ [2018-09-22 11:59:25] | Текст ошибки: Не найден вид /opt/lampp/htdocs/admwcms.loc/app/views/User/logout.php | Файл /opt/lampp/htdocs/admwcms.loc/vendor/wcms/core/base/View.php | Строка 90
+ ================= 
+ [2018-09-22 11:59:31] | Текст ошибки: Не найден вид /opt/lampp/htdocs/admwcms.loc/app/views/User/logout.php | Файл /opt/lampp/htdocs/admwcms.loc/vendor/wcms/core/base/View.php | Строка 90
+ ================= 
+ [2018-09-22 14:12:55] | Текст ошибки: Too few arguments to function wcms\libs\Pagination::getCountPages(), 0 passed in /opt/lampp/htdocs/admwcms.loc/vendor/wcms/core/libs/Pagination.php on line 28 and exactly 1 expected | Файл /opt/lampp/htdocs/admwcms.loc/vendor/wcms/core/libs/Pagination.php | Строка 78
+ ================= 
  

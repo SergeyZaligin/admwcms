@@ -38,12 +38,23 @@ class UserController extends AppController
         
     public function loginAction() 
     {
-    
+        if (!empty($_POST) && isset($_POST)) {
+            $userModel = new User();
+            if ($userModel->login()) {
+                $_SESSION['validate_success'] = 'Вы вошли на сайт!';
+            } else {
+                $_SESSION['validate_errors'] = 'Логин или пароль введены не верно!';
+            }
+            redirect();
+         }
     }
         
     public function logoutAction() 
     {
-    
+        if (isset($_SESSION['user'])) {
+            unset($_SESSION['user']);
+            redirect();
+        }
     } 
     
 }
