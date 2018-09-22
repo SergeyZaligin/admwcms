@@ -19,10 +19,20 @@ class UserController extends AppController
             $userModel = new User();
             $data = $_POST;
             $userModel->load($data);
-            if (!$userModel->validate($data)) {
+            if (!$userModel->validate($data) || !$userModel->checkUnique()) {
                 $userModel->getErrors();
+                $_SESSION['form_data'] = $data;
                 redirect();
             }
+            
+            $userModel->attributes['password'] = password_hash($userModel->attributes['password'], PASSWORD_DEFAULT);
+            
+            if ($userModel->save('user')) {
+                $_SESSION['validate_success'] = 'Вы успешно зарегистроированы!';
+            } else {
+                $_SESSION['validate_errors'] = 'Ошибка при регистрации! ';
+            }
+            redirect();
         }
     }
         

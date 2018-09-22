@@ -4,6 +4,8 @@ namespace wcms\base;
 
 use wcms\Db;
 use Valitron\Validator;
+use \RedBeanPHP\R as R;
+use Valitron\Validator as V;
 
 /**
  * Description of Model
@@ -27,15 +29,26 @@ abstract class Model
     
     public function validate($data) 
     {
+        V::lang('ru');
         $v = new Validator($data);
         $v->rules($this->rules);
         if ($v->validate()) {
-            $_SESSION['validate_success'] = 'Вы успешно зарегистроированы!';
             return true;
         } else {
            $this->errors = $v->errors();
            return false;
         }
+    }
+    
+    public function save($table) 
+    {
+        $tbl = R::dispense($table);
+        
+        foreach ($this->attributes as $name => $value) {
+            $tbl->$name = $value;
+        }
+        
+        return R::store($tbl);
     }
     
     public function getErrors() 
