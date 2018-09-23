@@ -169,4 +169,10 @@
  ================= 
  [2018-09-22 14:12:55] | Текст ошибки: Too few arguments to function wcms\libs\Pagination::getCountPages(), 0 passed in /opt/lampp/htdocs/admwcms.loc/vendor/wcms/core/libs/Pagination.php on line 28 and exactly 1 expected | Файл /opt/lampp/htdocs/admwcms.loc/vendor/wcms/core/libs/Pagination.php | Строка 78
  ================= 
+ [2018-09-23 09:01:24] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/admwcms.loc/vendor/wcms/core/Router.php | Строка 63
+ ================= 
+ [2018-09-23 09:03:16] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/admwcms.loc/vendor/wcms/core/Router.php | Строка 63
+ ================= 
+ [2018-09-23 09:05:54] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/admwcms.loc/vendor/wcms/core/Router.php | Строка 63
+ ================= 
  

@@ -4,7 +4,7 @@ namespace app\controllers;
 
 use RedBeanPHP\R as R;
 use wcms\libs\Pagination;
-
+use wcms\Cache;
 /**
  * MainController
  *
@@ -23,8 +23,11 @@ class MainController extends AppController
         
         $posts = R::findAll('test', "LIMIT $start, $perPage");
         
-        //debug($posts);
+        $cache = Cache::instance();
+        $cache->set('test', $posts);
+        $data = $cache->get('test');
+        //debug($data);
         $this->setMeta('Индекс пейдж', "Это описание индекс пейдж", "Это кейвордс");
-        $this->setData(compact('posts', 'pagination'));
+        $this->setData(compact('data', 'pagination'));
     }
 }
