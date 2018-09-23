@@ -175,4 +175,12 @@
  ================= 
  [2018-09-23 09:05:54] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/admwcms.loc/vendor/wcms/core/Router.php | Строка 63
  ================= 
+ [2018-09-23 10:03:53] | Текст ошибки: Контроллер app\controllers\TestController не найден | Файл /opt/lampp/htdocs/admwcms.loc/vendor/wcms/core/Router.php | Строка 60
+ ================= 
+ [2018-09-23 10:03:53] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/admwcms.loc/vendor/wcms/core/Router.php | Строка 63
+ ================= 
+ [2018-09-23 10:03:57] | Текст ошибки: Страница не найдена | Файл /opt/lampp/htdocs/admwcms.loc/vendor/wcms/core/Router.php | Строка 63
+ ================= 
+ [2018-09-23 10:04:55] | Текст ошибки: Контроллер app\controllers\TestController не найден | Файл /opt/lampp/htdocs/admwcms.loc/vendor/wcms/core/Router.php | Строка 60
+ ================= 
  

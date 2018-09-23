@@ -23,11 +23,20 @@ class MainController extends AppController
         
         $posts = R::findAll('test', "LIMIT $start, $perPage");
         
-        $cache = Cache::instance();
-        $cache->set('test', $posts);
-        $data = $cache->get('test');
+//        $cache = Cache::instance();
+//        $cache->set('test', $posts);
+//        $data = $cache->get('test');
         //debug($data);
         $this->setMeta('Индекс пейдж', "Это описание индекс пейдж", "Это кейвордс");
-        $this->setData(compact('data', 'pagination'));
+        $this->setData(compact('posts', 'pagination'));
+    }
+    
+    public function testAction() 
+    {
+        if ($this->isAjax()) {
+            echo 'isAjax!!!';
+            die;
+        }
+        $this->setMeta('Test пейдж', "Это описание test пейдж", "Это кейвордс");
     }
 }
