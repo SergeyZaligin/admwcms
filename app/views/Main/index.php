@@ -11,7 +11,7 @@
 <p>Empty!!!</p>
 <?php endif; ?>
 
-<script src="../../../public/js/test.js"></script>
+<script src="/public/js/test.js"></script>
 <script>
     $(document).ready(function(){
         $('#send').on('click', function () {
